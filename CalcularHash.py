@@ -21,7 +21,7 @@ class HashGUI:
 
         #Tamaño fijo y ventana centrada
         self.master.resizable(0,0)
-        self.ancho = 1250
+        self.ancho = 1220
         self.alto = 310
         self.ventana_x = master.winfo_screenwidth() // 2 - self.ancho // 2
         self.ventana_y = master.winfo_screenheight() // 2 - self.alto // 2
