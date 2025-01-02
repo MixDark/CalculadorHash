@@ -17,9 +17,7 @@ Una aplicación de escritorio desarrollada con las librerias Tkinter y Haslib, l
 ## Instalación desde CLI
 1. Clona el repositorio: 
 git clone https://github.com/MixDark/CalculadorHash.git
-2. Instala las dependencias:
-pip install -r requirements.txt
-3. Ejecuta la aplicación:
+2. Ejecuta la aplicación:
 python CalculadorHash.py
 
 ## Uso
