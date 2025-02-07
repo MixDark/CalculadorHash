@@ -443,38 +443,38 @@ class HashGUI(QMainWindow):
             QLabel {
                 font-family: Arial;
                 font-size: 12px;
-                color: #000000;  /* Color negro para las etiquetas */
+                color: #000000;  
             }
             QLineEdit {
                 padding: 5px;
                 border: 1px solid #cccccc;
                 border-radius: 4px;
                 background-color: white;
-                color: #000000;  /* Color negro para el texto en QLineEdit */
+                color: #000000;  
             }
             QLineEdit:read-only {
                 background-color: #f8f8f8;
-                color: #000000;  /* Color negro para el texto en modo solo lectura */
+                color: #000000;  
             }
             QPushButton {
                 padding: 5px 10px;
-                background-color: #2196F3;  /* Cambiado a azul para mejor contraste */
+                background-color: #2196F3;  
                 color: white;
                 border: none;
                 border-radius: 4px;
                 font-weight: bold;
             }
             QPushButton:hover {
-                background-color: #1976D2;  /* Azul más oscuro en hover */
+                background-color: #1976D2;  
             }
             QPushButton:pressed {
-                background-color: #0D47A1;  /* Azul aún más oscuro al presionar */
+                background-color: #0D47A1; 
             }
             QProgressBar {
                 border: 1px solid #cccccc;
                 border-radius: 4px;
                 text-align: center;
-                color: #000000;  /* Color blanco para el texto en la barra de progreso */
+                color: #000000;  
             }
             QProgressBar::chunk {
                 background-color: #2196F3;
@@ -491,7 +491,7 @@ class HashGUI(QMainWindow):
                 border-top-right-radius: 4px;
                 min-width: 8ex;
                 padding: 8px;
-                color: #000000;  /* Color negro para el texto en las pestañas */
+                color: #000000;  
             }
             QTabBar::tab:selected {
                 background-color: #ffffff;
@@ -502,7 +502,7 @@ class HashGUI(QMainWindow):
             }
             QMessageBox {
                 background-color: #ffffff;          
-                color: #000000;  /* Color negro para el texto en los mensajes */
+                color: #000000;  
             }
             QMessageBox QPushButton {
                 background-color: #ffffff;           
