@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+*.log
+*.xlsx
+*.csv
+*.json
+.env
+.idea/
+.vscode/
+reporte_hashes.*
+historial_*.txt
