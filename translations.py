@@ -53,6 +53,9 @@ translations = {
         'select_language': 'Idioma',
         'spanish': 'Español',
         'english': 'Inglés',
+        'text_input_placeholder': 'Ingrese el texto aquí...',
+        'expected_hash_placeholder': 'Pegue el hash esperado aquí...',
+        'audit_report_info': '<b>Generador de reporte de auditoría</b><br>Escanea una carpeta completa y genera un archivo detallado con los hashes de cada archivo.',
     },
     'en': {
         'window_title': 'Hash calculator',
@@ -105,5 +108,8 @@ translations = {
         'select_language': 'Language',
         'spanish': 'Spanish',
         'english': 'English',
+        'text_input_placeholder': 'Enter text here...',
+        'expected_hash_placeholder': 'Paste the expected hash here...',
+        'audit_report_info': '<b>Audit report generator</b><br>Scan a complete folder and generate a detailed file with the hashes of each file.',
     }
 }

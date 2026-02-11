@@ -130,7 +130,7 @@ class HashGUI(QMainWindow):
         
         input_layout = QHBoxLayout()
         self.text_input = QLineEdit()
-        self.text_input.setPlaceholderText("Ingrese el texto aquí...")
+        self.text_input.setPlaceholderText(self.tr('text_input_placeholder'))
         calc_button = QPushButton(self.tr('calculate'))
         calc_button.clicked.connect(self.calculate_text_hash)
         
@@ -259,7 +259,7 @@ class HashGUI(QMainWindow):
         
         hash_input_layout = QHBoxLayout()
         self.verify_hash_input = QLineEdit()
-        self.verify_hash_input.setPlaceholderText("Pegue el hash esperado aquí...")
+        self.verify_hash_input.setPlaceholderText(self.tr('expected_hash_placeholder'))
         verify_btn = QPushButton(self.tr('btn_verify_file'))
         verify_btn.clicked.connect(self.verify_hash)
         hash_input_layout.addWidget(QLabel(self.tr('expected_hash_label')))
@@ -487,7 +487,9 @@ class HashGUI(QMainWindow):
         layout.addLayout(input_layout)
         
         self.dup_results = QTableWidget(0, 3)
-        self.dup_results.setHorizontalHeaderLabels(["Nombre", "Tamaño", "MD5 Hash"])
+        self.dup_results.setHorizontalHeaderLabels([
+            self.tr('col_file'), self.tr('col_size'), self.tr('col_md5')
+        ])
         self.dup_results.horizontalHeader().setSectionResizeMode(QHeaderView.ResizeMode.Stretch)
         layout.addWidget(self.dup_results)
         
@@ -497,7 +499,7 @@ class HashGUI(QMainWindow):
         tab = QWidget()
         layout = QVBoxLayout(tab)
         
-        info = QLabel("<b>Generador de reporte de auditoría</b><br>Escanea una carpeta completa y genera un archivo detallado con los hashes de cada archivo.")
+        info = QLabel(self.tr('audit_report_info'))
         info.setWordWrap(True)
         layout.addWidget(info)
         
